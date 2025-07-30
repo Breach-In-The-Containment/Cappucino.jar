@@ -1,4 +1,4 @@
-package com.breachinthecontainment.espresso;
+package com.breachinthecontainment.cappucino;
 
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
