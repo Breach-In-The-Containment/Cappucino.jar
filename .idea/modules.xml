@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Cappucino.jar.iml" filepath="$PROJECT_DIR$/.idea/Cappucino.jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cappucino.jar.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Cappucino.jar.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cappucino.jar.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Cappucino.jar.test.iml" />
     </modules>
   </component>
 </project>
