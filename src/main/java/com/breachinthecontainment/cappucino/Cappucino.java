@@ -2,6 +2,7 @@ package com.breachinthecontainment.cappucino;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = Cappucino.MODID, name = "Cappucino", version = "1.0")
@@ -15,5 +16,10 @@ public class Cappucino {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         MinecraftForge.EVENT_BUS.register(new CorruptionManager());
+    }
+
+    @Mod.EventHandler
+    public void serverStarting(FMLServerStartingEvent event) {
+        CappucinoCommands.register(event);
     }
 }
