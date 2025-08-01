@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: Cappucino.jar
-Implementation-Version: 1.0
-Specification-Vendor: examplemodsareus
-Specification-Title: examplemod
-Implementation-Timestamp: 2025-08-01T18:47:31+0200
-Specification-Version: 1
-Implementation-Vendor: examplemodsareus
-
